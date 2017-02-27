@@ -1,0 +1,18 @@
+#!/bin/bash
+
+DIRECTORY="/root/scripts"
+
+if [ -d "$DIRECTORY" ];then
+	echo "this directory exists"
+else
+	echo "this directory does not exists"
+fi
+
+for count in 1 2 3 4 5 
+do
+	echo "this is line #.$count"
+done
+
+while read HOST; do
+	ping -c 3 $HOST
+done < myhosts
