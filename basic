@@ -15,4 +15,4 @@ done
 
 while read HOST; do
 	ping -c 3 $HOST
-done < myhosts
+done < myhosts # this file has been created on the local machine
