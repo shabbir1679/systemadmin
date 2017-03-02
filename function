@@ -1,0 +1,4 @@
+function clean_file /
+  { 
+    sed -i '/^(character you want to match for)/d||s;/^$/d' $1
+  }
