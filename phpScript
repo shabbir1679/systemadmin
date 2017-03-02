@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>PHP Test</title>
+</head>
+<body>
+
+<?php echo '<p>Hello World</p>';
+
+echo'<p>"This page is intended to run php script"</p>';
+echo'<li>
+1. Lamp should be configured
+2. Make sure that your database is running by executing the systemctl program of the database service.
+3. Append more php script to this page and eventually buils an application 
+
+</li>';
+
+
+
+ ; ?>
+
+</body>
+</html>
