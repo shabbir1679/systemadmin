@@ -1,6 +1,8 @@
 <html>
 <head>
 <title>PHP Test</title>
+<h2>Building a php web page</h2>
+<img src="elmhurst_logo.jpg" alt="logo" style="width:304px;height:228px;">
 </head>
 <body>
 
@@ -10,7 +12,7 @@ echo'<p>"This page is intended to run php script"</p>';
 echo'<li>
 1. Lamp should be configured
 2. Make sure that your database is running by executing the systemctl program of the database service.
-3. Append more php script to this page and eventually buils an application 
+3. Append more php script to this page and eventually build an application 
 
 </li>';
 
@@ -20,3 +22,4 @@ echo'<li>
 
 </body>
 </html>
+~        
